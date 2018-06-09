@@ -2,7 +2,7 @@
   "name": "eiweissrechner",
   "version": "1.0.0",
   "description": "eiweissrechner",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "test"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/melmac-66/eiweissrechner/issues"
   },
-  "homepage": "https://github.com/melmac-66/eiweissrechner#readme"
+  "homepage": "https://github.com/melmac-66/eiweissrechner#readme",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
 }
