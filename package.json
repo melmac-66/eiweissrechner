@@ -2,9 +2,12 @@
   "name": "eiweissrechner",
   "version": "1.0.0",
   "description": "eiweissrechner",
-  "main": "index.html",
+  "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "createexe": "electron-packager ./",
+    "start": "electron ."
+
   },
   "repository": {
     "type": "git",
