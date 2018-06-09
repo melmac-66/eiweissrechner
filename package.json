@@ -1,0 +1,19 @@
+{
+  "name": "eiweissrechner",
+  "version": "1.0.0",
+  "description": "eiweissrechner",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melmac-66/eiweissrechner.git"
+  },
+  "author": "fiedla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melmac-66/eiweissrechner/issues"
+  },
+  "homepage": "https://github.com/melmac-66/eiweissrechner#readme"
+}
