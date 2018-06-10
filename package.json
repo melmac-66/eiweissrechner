@@ -20,6 +20,7 @@
   "homepage": "https://github.com/melmac-66/eiweissrechner#readme",
   "devDependencies": {},
   "dependencies": {
-    "electron": "^2.0.2"
+    "electron": "^2.0.2",
+    "jquery": "2.2.4"
   }
 }
