@@ -20,8 +20,9 @@ $().ready(function(){
   $("#berechnen").submit(function(event){
     event.preventDefault();
     lebenmittelwert=parseFloat($('#lebensmittel').val().replace(/,/,'.'));
-    faktor=parseFloat($('#menge').val());
-    alert("hallo Thora, du hast "+(lebenmittelwert/100*faktor)+" g Eiweiß gegessen");
+    faktor=parseFloat($('#menge').val().replace(/,/,'.'));
+    wertalsstring=(lebenmittelwert/100*faktor).toString();
+    alert("hallo Thora, du hast "+wertalsstring.replace('.',',')+" g Eiweiß gegessen");
     return false;
   })
 })
